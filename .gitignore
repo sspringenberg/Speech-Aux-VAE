@@ -1,0 +1,6 @@
+vctk_preprocessed/
+vctk_preprocessed_backup/
+librispeech_preprocessed/
+experiments/
+runs/
+*.pyc
