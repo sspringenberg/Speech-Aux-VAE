@@ -8,7 +8,7 @@ python preprocess_librispeech.py --librispeech-path={DIR TO VCTK DIRECTORY}
 ```
 with {DIR TO VCTK DIRECTORY} replaced by the path to the LibriSpeech folder. A new folder called librispeech_preprocessed will be created containing preprocessed audio samples.
 
-In order to preprocess the [VCTK dataset](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html), please first [download](https://datashare.is.ed.ac.uk/handle/10283/2651) the dateset first and then run:
+In order to preprocess the [VCTK dataset](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html), please  [download](https://datashare.is.ed.ac.uk/handle/10283/2651) the dateset first and then run:
 ```
 python preprocess_vctk.py --vctk-path={DIR TO VCTK DIRECTORY}
 ```
@@ -16,7 +16,7 @@ with {DIR TO VCTK DIRECTORY} replaced by the path to the VCTK-Corpus folder. A n
 
 ### Running the Model
 
-Models can be traines py running the main.py script. Options include training a simple predicive speech VAE and a multi-timescale auxiliar speech VAE (Aux-VAE)
+Models can be trained by running the main.py script. Options include training a simple predicive speech VAE and a multi-timescale auxiliar speech VAE (Aux-VAE)
 
 The predicitve speech VAE can be trained by:
 ```
@@ -42,7 +42,7 @@ To analyse latent representations first run:
 ```
 python main.py --model-type=TYPE_OF_MODEL --mode=analyse-latent
 ```
-To create t-SNE plots then rund:
+To create t-SNE plots then run:
 ```
 python tsne_plotter.py
 ```
