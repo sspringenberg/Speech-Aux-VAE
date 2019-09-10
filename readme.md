@@ -1,3 +1,13 @@
+This repository contains the code and results of applying two VAE architectures, namely a simple predictive VAE and a multi-timescale auxiliary VAE to speech audio in order to obtain expressive speech representations in an unsupervised manner.
+
+## Models
+
+### Predictive Speech VAE
+<img src="./imgs/pred_speech_vae.png" />
+
+### Multi-Timescale Aux-VAE
+<img src="./imgs/m_t_speech_vae.png" />
+
 ## Running the Code
 
 ### Preprocessing
