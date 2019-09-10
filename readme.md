@@ -2,7 +2,7 @@
 
 ### Preprocessing
 
-In order to preprocess the [LibriSpeech dataset](http://www.openslr.org/12/), please first [download](http://www.openslr.org/resources/12/train-clean-100.tar.gz) the train-clean-100 subset first and then run:
+In order to preprocess the [LibriSpeech dataset](http://www.openslr.org/12/), please [download](http://www.openslr.org/resources/12/train-clean-100.tar.gz) the train-clean-100 subset first and then run:
 ```
 python preprocess_librispeech.py --librispeech-path={DIR TO VCTK DIRECTORY}
 ```
