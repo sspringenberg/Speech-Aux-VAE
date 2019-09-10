@@ -3,10 +3,10 @@ This repository contains the code and results of applying two VAE architectures,
 ## Models
 
 ### Predictive Speech VAE
-<img src="./imgs/pred_speech_vae.pdf" />
+<img src="./imgs/pred_speech_vae.png" />
 
 ### Multi-Timescale Aux-VAE
-<img src="./imgs/m_t_speech_vae.pdf" />
+<img src="./imgs/m_t_speech_vae.png" />
 
 ## Running the Code
 
