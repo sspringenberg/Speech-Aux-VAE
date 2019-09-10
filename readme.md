@@ -1,4 +1,4 @@
-This repository contains the code and results of applying two VAE architectures, namely a simple predictive VAE and a multi-timescale auxiliary VAE to speech audio in order to obtain expressive speech representations in an unsupervised manner.
+This repository contains the code and results of applying two VAE architectures, namely a simple predictive VAE and a multi-timescale auxiliary VAE to speech audio in order to obtain expressive speech representations in an unsupervised manner. The models are implemented in [PyTorch](https://github.com/pytorch/pytorch). The Aux-VAE architecture is further specified in the paper ["Predictive Auxiliary Variational Autoencoder for Representation Learning of Global Speech Characteristics"](), published in the Interspeech 2019 proceedings.
 
 ## Models
 
